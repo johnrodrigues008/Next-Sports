@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Sports //</title>
+
+    <!-- Link do css externo -->
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <link rel="stylesheet" href="../style/pagamento.css" />
+  </head>
+  <body>
+    <!-------------------------------------------------
+                    Navegação
+  -------------------------------------------------->
+    <div id="header">
+      <a id="logo" href="">Next Sports //</a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="../index.html">PRINCIPAL</a></li>
+          <li><a href="components/sobre.html">SOBRE</a></li>
+          <li><a href="components/produtos.html">PRODUTOS</a></li>
+          <li><a href="/">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-------------------------------------------------
+                Encaminhamento
+    -------------------------------------------------->
+    <div class="checkout-panel">
+      <div class="panel-body">
+        <h2 class="title">Formas de pagamento!</h2>
+
+        <div class="progress-bar">
+          <div class="step active"></div>
+          <div class="step active"></div>
+          <div class="step active"></div>
+          <div class="step"></div>
+        </div>
+
+        <div class="payment-method"></div>
+
+        <h1>Compra Finalizada com sucesso!</h1>
+      </div>
+
+      <div class="panel-footer">
+        <a href="../index.html"><button class="btn back-btn">Voltar</button></a>
+      </div>
+    </div>
+
+    <!-------------------------------------------------
+                    Footer
+  -------------------------------------------------->
+    <footer class="footer-distributed">
+      <h1>Projeto realizado com Objetivos didáticos</h1>
+      <h2>Escola Técnica de Brasília</h2>
+      <p>&copy; Todos os Direitos Reservados</p>
+    </footer>
+
+    <script src="../js/pagamento.js"></script>
+  </body>
+</html>

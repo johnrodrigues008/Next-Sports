@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Sports //</title>
+
+    <!-- Link do css externo -->
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <link rel="stylesheet" href="../style/pagamento.css" />
+  </head>
+  <body>
+    <!-------------------------------------------------
+                    Navegação
+  -------------------------------------------------->
+    <div id="header">
+      <a id="logo" href="">Next Sports //</a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="../index.html">PRINCIPAL</a></li>
+          <li><a href="components/sobre.html">SOBRE</a></li>
+          <li><a href="components/produtos.html">PRODUTOS</a></li>
+          <li><a href="/">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-------------------------------------------------
+                Encaminhamento
+    -------------------------------------------------->
+    <div class="checkout-panel">
+      <div class="panel-body">
+        <h2 class="title">Formas de pagamento!</h2>
+
+        <div class="progress-bar">
+          <div class="step active"></div>
+          <div class="step active"></div>
+          <div class="step"></div>
+          <div class="step"></div>
+        </div>
+
+        <div class="payment-method">
+          <label for="card" class="method card">
+            <div class="card-logos">
+              <img
+                src="https://designmodo.com/demo/checkout-panel/img/visa_logo.png"
+              />
+              <img
+                src="https://designmodo.com/demo/checkout-panel/img/mastercard_logo.png"
+              />
+            </div>
+
+            <div class="radio-input">
+              <input id="card" type="radio" name="payment" />
+              Pague R$199.99 com o credit card
+            </div>
+          </label>
+
+          <label for="paypal" class="method paypal">
+            <img
+              src="https://designmodo.com/demo/checkout-panel/img/paypal_logo.png"
+            />
+            <div class="radio-input">
+              <input id="paypal" type="radio" name="payment" />
+              Pague R$199.99 com PayPal
+            </div>
+          </label>
+        </div>
+
+        <div class="input-fields">
+          <div class="column-1">
+            <label for="cardholder">Nome</label>
+            <input type="text" id="cardholder" />
+
+            <div class="small-inputs">
+              <div>
+                <label for="date">Data de Validade</label>
+                <input type="text" id="date" />
+              </div>
+
+              <div>
+                <label for="verification">CVV / CVC *</label>
+                <input type="password" id="verification" />
+              </div>
+            </div>
+          </div>
+          <div class="column-2">
+            <label for="cardnumber">Numero do Cartão</label>
+            <input type="password" id="cardnumber" />
+
+            <span class="info"
+              >* CVV or CVC é o codigo de segurança do cartão que fica
+              localizado atras do cartão.</span
+            >
+          </div>
+        </div>
+      </div>
+
+      <div class="panel-footer">
+        <a href="cadastro.html"><button class="btn back-btn">Voltar</button></a>
+        <a href="processamento.html"
+          ><button class="btn next-btn">Confirmar Compra</button></a
+        >
+      </div>
+    </div>
+
+    <!-------------------------------------------------
+                    Footer
+  -------------------------------------------------->
+    <footer class="footer-distributed">
+      <h1>Projeto realizado com Objetivos didáticos</h1>
+      <h2>Escola Técnica de Brasília</h2>
+      <p>&copy; Todos os Direitos Reservados</p>
+    </footer>
+
+    <script src="../js/pagamento.js"></script>
+  </body>
+</html>

@@ -1,0 +1,58 @@
+/**********************************************
+                  Navegação
+***********************************************/
+a {
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  font-family: sans-serif;
+}
+a:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+#logo {
+  font-size: 30px;
+  font-weight: bold;
+}
+#header {
+  box-sizing: border-box;
+  height: 100px;
+  padding: 0 5vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background: #160539;
+  font-size: 22px;
+  position: static;
+  width: 100%;
+}
+#menu {
+  display: flex;
+  list-style: none;
+  gap: 0.5rem;
+}
+#menu a {
+  display: block;
+  padding: 0.5rem;
+}
+#btn-mobile {
+  display: none;
+}
+/**********************************************
+                  Sobre
+***********************************************/
+.prop {
+  background: url(/imagens/prop.jpg);
+  width: 100%;
+  height: 90vh;
+  background-size: cover;
+}
+.prop p {
+  text-align: center;
+  height: 80vh;
+  font-size: 30px;
+  padding: 12% 0 0 0;
+  color: white;
+  text-transform: capitalize;
+  font-family: "Fuzzy Bubbles", cursive;
+  line-height: 50px;
+}

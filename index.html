@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Sports //</title>
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <!-------------------------------------------------
+                    Navegação
+  -------------------------------------------------->
+    <div class="pre-nav"></div>
+    <div id="header">
+      <a id="logo" href="index.html">Next Sports //</a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="index.html">PRINCIPAL</a></li>
+          <li><a href="components/sobre.html">SOBRE</a></li>
+          <li><a href="components/produtos.html">PRODUTOS</a></li>
+          <li><a href="/">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+    <!-------------------------------------------------
+                       Banner
+  -------------------------------------------------->
+    <div class="banner">
+      <!-- Card do banner -->
+      <div class="banner-text">
+        <h1>Next Sports</h1>
+        <p>
+          Produtos de alta peformace e de qualidade <br />
+          Fazendo de sua vida um Fashion Sport sem perder um conforto.
+        </p>
+      </div>
+
+      <div class="banner-card">
+        <!-- -----------------------------------------
+                Carrousel do card
+        --------------------------------------------->
+        <div class="slideshow-container">
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="imagens/card-banner/img1.png" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="imagens/card-banner/img2.png" />
+          </div>
+
+          <div class="mySlides fade">
+            <div class="numbertext"></div>
+            <img src="imagens/card-banner/img3.png" />
+          </div>
+        </div>
+        <div style="text-align: center">
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+      </div>
+      <!-- Banner Button -->
+      <div class="banner-button">
+        <a href="components/produtos.html"><button>Veja Nossas Ofertas</button></a>
+      </div>
+    </div>
+
+    <!-------------------------------------------------
+                       Ofertas
+  -------------------------------------------------->
+    <h1 class="ofertas-h1">Confira nossas Ofertas!</h1>
+    <div class="ofertas">
+      <!-- Cards das ofertas -->
+      <a href="components/produtos.html">
+        <div class="card-ofertas">
+          <div class="box-ofertas-1"></div>
+          <h1>Adidas Black Shadow</h1>
+        </div>
+      </a>
+      <a href="components/produtos.html">
+        <div class="card-ofertas">
+          <div class="box-ofertas-2"></div>
+          <h1>Spink Color</h1>
+        </div>
+      </a>
+      <a href="components/produtos.html">
+        <div class="card-ofertas">
+          <div class="box-ofertas-3"></div>
+          <h1>Saas yellow gold</h1>
+        </div>
+      </a>
+      <a href="components/produtos.html">
+        <div class="card-ofertas">
+          <div class="box-ofertas-4"></div>
+          <h1>Fila many colors</h1>
+        </div>
+      </a>
+      <a href="components/produtos.html">
+        <div class="card-ofertas">
+          <div class="box-ofertas-5"></div>
+          <h1>Fila Stars</h1>
+        </div>
+      </a>
+      <a href="components/produtos.html">
+        <div class="card-ofertas">
+          <div class="box-ofertas-6"></div>
+          <h1>Oakley Boots</h1>
+        </div>
+      </a>
+    </div>
+
+    <div class="ofertas-button">
+      <button><a href="components/produtos.html">Saiba Mais</a></button>
+    </div>
+    <!-------------------------------------------------
+                Missão da empresa
+  -------------------------------------------------->
+    <h1 class="ofertas-h1">Nossa Missão!</h1>
+    <div class="prop">
+      <p>
+        Desenvolver soluções criativas e personalizadas para atender as
+        necessidades<br />
+        de nossos clientes, oferecendo Produtos de qualidade,<br />
+        eficaz e com estilo para todos os gostos, garantindo assim que <br />
+        os objetivos de nossos clientes sejam alcançados e transformando em uma
+        experiência unica.
+      </p>
+    </div>
+    <!-------------------------------------------------
+                Encaminhamento
+    -------------------------------------------------->
+      <div class="encaminhamento">
+        <div class="ajuda">
+          <h1>Precisa de ajuda?</h1>
+          <p>Nossoa especialistas entrão em contato com você <br>  
+            para detalhes e esclarecimentos. Teremos o maior <br> 
+            prazer em ajudá-lo a encontrar os melhores produtos.</p>
+            <div class="ajuda-img">
+              <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/facebook--v1.png"/></a>
+              <a href="#"><img src="https://img.icons8.com/ios-filled/50/000000/twitter.png"/></a>
+              <a href="#"><img src="https://img.icons8.com/ios/50/000000/instagram-new.png"/></a>
+              <a href="#"><img src="https://img.icons8.com/ios/50/000000/google-logo--v1.png"/></a>
+            </div>
+        </div>
+
+
+        <div class="cadastro">
+          <form>
+            <h1>Digite sua Mensagem!</h1>
+            <div class="cadastro-box">
+
+                <input type="text" placeholder="Digite seu nome">
+            </div>
+            <div class="cadastro-box">
+
+                <input type="email" placeholder="xxx@gmail.com"/>
+            </div class="cadastro-box">
+            <div class="cadastro-box">
+
+              <input type="number" placeholder="(xx) xxxx-xxxx"/>
+            </div>
+            <div class="cadastro-box">
+                <textarea class="mens" placeholder="digite sua mensagem..."></textarea>
+            </div>
+            <div class="button">
+              <button onclick="mensagem();">Enviar sua mensagem</button>
+                
+            </div>
+          </form>
+        </div>
+      </div>
+
+ 
+
+    <!-------------------------------------------------
+                    Footer
+  -------------------------------------------------->
+    <footer class="footer-distributed">
+      <h1>Projeto realizado com Objetivos didáticos</h1>
+      <h2>Escola Técnica de Brasília</h2>
+      <p>	&copy; Todos os Direitos Reservados</p>
+
+    </footer>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>

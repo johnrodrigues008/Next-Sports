@@ -1,0 +1,106 @@
+/**********************************************
+                encaminhamento
+***********************************************/
+
+.encaminhamento {
+  width: 100%;
+  padding: 0 150px;
+  margin: 0;
+}
+/* *****************Ajuda******************* */
+.ajuda {
+  background: url(/imagens/fundo-card.jpg);
+  background-size: cover;
+  display: inline-block;
+  width: 50%;
+  height: 70vh;
+  border-radius: 50px 0 0 50px;
+  padding: 180px 0 0 0;
+  margin: 150px 0 0 0;
+}
+.ajuda h1 {
+  width: 100%;
+  text-align: center;
+  margin: 0;
+}
+.ajuda p {
+  font-size: 25px;
+  width: 100%;
+  text-align: center;
+  line-height: 35px;
+}
+.ajuda p a {
+  color: #df2525;
+}
+.ajuda-img {
+  width: 100%;
+  text-align: center;
+}
+.box-login {
+  text-align: center;
+}
+/* *************Cadastro******************* */
+.cadastro {
+  background: url(/imagens/fundo-card.jpg);
+  background-size: cover;
+  display: inline-block;
+  width: 50%;
+  height: 70vh;
+  border-radius: 0 50px 50px 0;
+  float: right;
+  margin: 150px 0 0 0;
+}
+.cadastro form {
+  text-align: center;
+  height: 100%;
+}
+.cadastro form h1 {
+  margin: 40px;
+  font-size: 40px;
+}
+.cadastro-box {
+  height: 9vh;
+}
+
+.cadastro-box input {
+  text-align: left;
+  width: 500px;
+  height: 50px;
+  text-align: center;
+  border-radius: 30px;
+  font-size: 20px;
+}
+.mens {
+  width: 500px;
+  height: 100px;
+  border-radius: 10px;
+  padding: 10px;
+  font-size: 20px;
+}
+.button button {
+  width: 500px;
+  height: 50px;
+  margin: 0px;
+}
+.button button:hover {
+  background-color: #160539;
+}
+
+/*      Botão do login       */
+.box-login-input {
+  color: #160539;
+}
+.box-login-input {
+  background: #160539;
+  color: white;
+  font-weight: 600;
+  font-size: 20px;
+  width: 500px;
+  height: 50px;
+  border-radius: 30px;
+}
+.box-login-input:hover {
+  background: white;
+  color: #160539;
+  border: 1px solid #160539;
+}

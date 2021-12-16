@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Next Sports //</title>
+    
+    <!-- Link do css externo -->
+    <link rel="stylesheet" href="../style/style.css" />
+
+    <link rel="stylesheet" href="../style/cadastro.css">
+
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+  </head>
+  <body>
+    <!-------------------------------------------------
+                    Navegação
+  -------------------------------------------------->
+    <div id="header">
+      <a id="logo" href="../index.html">Next Sports //</a>
+      <nav id="nav">
+        <button
+          aria-label="Abrir Menu"
+          id="btn-mobile"
+          aria-haspopup="true"
+          aria-controls="menu"
+          aria-expanded="false"
+        >
+          <span id="hamburger"></span>
+        </button>
+        <ul id="menu" role="menu">
+          <li><a href="../index.html">PRINCIPAL</a></li>
+          <li><a href="components/sobre.html">SOBRE</a></li>
+          <li><a href="components/produtos.html">PRODUTOS</a></li>
+          <li><a href="/">CONTATO</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-------------------------------------------------
+                Encaminhamento
+    -------------------------------------------------->
+      <div class="encaminhamento">
+        <div class="ajuda">
+            <form>
+                <h1>Login</h1>
+                <p>Bem vindo de volta!</p>
+                <div class="cadastro-box box-login">
+                    <input type="text" title="Email" id="fname6" class="email" placeholder="Digite seu email">
+                </div class="cadastro-box">
+                <div class="cadastro-box box-login">
+
+                  <input type="password" title="Mobile" id="fname5" class="numeric" placeholder="Digite sua senha">
+                </div>
+                <div class="button box-login">
+                    <input class="box-login-input" type="submit" id="sub" value="Entrar">
+                </div>
+                <p>Esqueceu sua senha? <a href="#">Clique aqui!</a></p>
+              </form>
+        </div>
+
+        <div class="cadastro">
+          <form>
+            <h1>Cadastre-se</h1>
+            <div class="cadastro-box">
+                <input placeholder="Digite seu nome">
+            </div>
+            <div class="cadastro-box">
+                <input type="email" placeholder="xxx@gmail.com"/>
+            </div class="cadastro-box">
+            <div class="cadastro-box">
+              <input type="number" placeholder="(xx) xxxx-xxxx"/>
+            </div>
+            <div class="cadastro-box">
+                <input type="password" placeholder="Digite sua senha"/>
+            </div>
+            <div class="cadastro-box">
+                <input type="password" placeholder="Confirme sua senha"/>
+            </div>
+
+            <div class="button">
+                <button><a href="pagamento.html">Enviar sua mensagem</a></button>
+            </div>
+          </form>
+        </div>
+      </div>
+
+    <!-------------------------------------------------
+                    Footer
+  -------------------------------------------------->
+    <footer class="footer-distributed">
+      <h1>Projeto realizado com Objetivos didáticos</h1>
+      <h2>Escola Técnica de Brasília</h2>
+      <p>	&copy; Todos os Direitos Reservados</p>
+
+    </footer>
+
+    <!-- Script Externo -->
+    <script src="../js/script.js"></script>
+    <script src="../js/cadastro.js"></script>
+  </body>
+</html>

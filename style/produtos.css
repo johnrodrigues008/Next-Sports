@@ -1,0 +1,82 @@
+/*----------------------------------------------
+                    Ofertas
+----------------------------------------------*/
+.ofertas-h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  margin: 100px 0 0 0;
+}
+.ofertas {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 150vh;
+  margin: 30px 0 0 0;
+  padding: 0 10% 0 10%;
+  align-items: center;
+  justify-content: center;
+}
+.ofertas button {
+  background: none;
+  border: none;
+}
+.ofertas button:hover {
+  background: #39050525;
+}
+.box-ofertas-1,
+.box-ofertas-2,
+.box-ofertas-3,
+.box-ofertas-4,
+.box-ofertas-5,
+.box-ofertas-6 {
+  background-color: #4436c4;
+  width: 400px;
+  height: 40vh;
+  margin: 20px 20px 0;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+  display: block;
+}
+.card-ofertas {
+  color: black;
+  text-align: center;
+}
+.box-ofertas-1 {
+  background: url(/imagens/box-oferta-1/outra_lateral.png);
+  background-size: cover;
+  cursor: pointer;
+}
+.box-ofertas-1:hover {
+  border: #160539;
+}
+.box-ofertas-2 {
+  background: url(/imagens/box-oferta-2/lateral-removebg-preview.png);
+  background-size: cover;
+}
+.box-ofertas-3 {
+  background: url(/imagens/box-oferta-3/outra.png);
+  background-size: cover;
+}
+.box-ofertas-4 {
+  background: url(/imagens/box-oferta-5/outro_lado.png);
+  background-size: cover;
+}
+.box-ofertas-5 {
+  background: url(/imagens/box-oferta-5/frente.png);
+  background-size: cover;
+}
+.box-ofertas-6 {
+  background: url(/imagens/box-oferta-6/lateral.png);
+  background-size: cover;
+}
+.box-ofertas-text {
+  color: black;
+  font-size: 30px;
+}
+.box-ofertas-text:hover {
+  font-size: 32px;
+  border: none;
+  background: none;
+}
